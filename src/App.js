@@ -17,7 +17,7 @@ function App() {
                     <button onClick={openMenu}>
                         &#9776;
                     </button>
-                    <a href="index.html">React-shop App</a>
+                    <a href="index.html">ETravel</a>
                 </div>
                 <div className="header-links">
                     <a href="cart.html">Cart</a>

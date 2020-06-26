@@ -26,23 +26,22 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 0.5rem;
+box-shadow: 0 0.1rem #000000;
 }
 
 .brand a{
   color: black;
   font-size: 2.5rem;
-  font-weight: bold;
   text-decoration: none;
+  font-family:  Sacramento;
 }
 
-.header-link a{
-  color: #ffffff;
+.header-links a{
+  color: #000000;
   text-decoration: none;
+  padding: 1rem;
 }
 
-.header-link a:hover{
-  color: #ff8800;
-}
 .main{
   grid-area: main;
 }
@@ -60,8 +59,12 @@ a{
   text-decoration: none;
 }
 
-a:hover{
-  color: #ff8000;
+.header-links a:hover{
+  color: #ffffff;
+  background-color: #E00099;
+  border-radius: .5rem ;
+  -moz-border-radius: .5rem;
+  -webkit-border-radius: .5rem;
 }
 
 /*home screen*/
